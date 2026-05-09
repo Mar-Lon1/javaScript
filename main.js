@@ -38,10 +38,10 @@ let hasName = false
 
 console.log(a + b)
 
-console.log(b === f)
+console.log(b / d === f)
 
-console.log(b && c)
+console.log(b > d && c == a)
 
-console.log(f || j)
+console.log(hasEmail && hasAddress || hasPaaword)
 
 console.log(c !== f)
