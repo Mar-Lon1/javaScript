@@ -1,47 +1,65 @@
 // strings
-let a = "name"
+// let a = "name"
 
-let b = "password"
+// let b = "password"
 
-let c = "email"
+// let c = "email"
 
-let d = "address"
+// let d = "address"
 
-let e = "phone"
+// let e = "phone"
 
 // numbers
-let f = 10
+// let f = 10
 
-let g = 11
+// let g = 11
 
-let h = 24
+// let h = 24
 
-let i = 30
+// let i = 30
 
-let j = 343
+// let j = 343
 
 
 //boolean
 
-let hasEmail = true
+// let hasEmail = true
 
-let hasPhone = true
+// let hasPhone = true
 
-let hasAddress = false
+// let hasAddress = false
 
-let hasPassword = true
+// let hasPassword = true
 
-let hasName = false
+// let hasName = false
 
 
 //operators
 
-console.log(a + b)
+// console.log(a + b)
 
-console.log(b / d === f)
+// console.log(b / d === f)
 
-console.log(b > d && c == a)
+// console.log(b > d && c == a)
 
-console.log(hasEmail && hasAddress || hasPaaword)
+// console.log(hasEmail && hasAddress || hasPaaword)
 
-console.log(c !== f)
+// console.log(c !== f)
+
+
+// let age = 35
+
+
+// let student = ["marlon", 33, "married", "banana"]
+
+
+// console.log(student[2])
+
+
+
+let a = 70
+let b = 70
+
+if (a == b) {
+    console.log(false)
+}
