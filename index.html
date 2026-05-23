@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/calculator.js" defer></script>
+</head>
+
+<body class="flex items-center justify-center">
+    <div class="w-full max-w-md h-[500px] m-20">
+        <div id="display" class="bg-gray-600 h-[70px] text-white text-5xl flex justify-end p-4 min-h-[80px] ">0</div>
+        <!-- buttons -->
+        <div class="flex">
+            <!-- RIGHT BUTTONS -->
+            <div class="grid grid-cols-3 flex-1 ">
+                <!-- row one -->
+                <button class=" border border-grey-300">AC</button>
+                <button class=" border border-grey-300">+/-</button>
+                <button class=" border border-grey-300">%</button>
+                <!-- row two -->
+                <button class=" border border-grey-300">7</button>
+                <button class=" border border-grey-300">8</button>
+                <button class=" border border-grey-300">9</button>
+                <!-- row three -->
+                <button class=" border border-grey-300">4</button>
+                <button class=" border border-grey-300">5</button>
+                <button class=" border border-grey-300">6</button>
+                <!-- row four -->
+                <button class=" border border-grey-300">1</button>
+                <button class=" border border-grey-300">2</button>
+                <button class=" border border-grey-300">3</button>
+                <!-- row five -->
+                <button class=" border border-grey-300 col-span-2">0</button>
+                <button class=" border border-grey-300">.</button>
+
+
+
+            </div>
+
+            <!-- LEFT BUTTONS -->
+            <div class="flex flex-col bg-orange-400">
+
+                <button class="p-8 bg-orange-400 border border-grey-300 text-white">/</button>
+                <button class="p-8 bg-orange-400 border border-grey-300 text-white">X</button>
+                <button class="p-8 bg-orange-400 border border-grey-300 text-white">-</button>
+                <button class="p-8 bg-orange-400 border border-grey-300 text-white">+</button>
+                <button class="p-8 bg-orange-400 border border-grey-300 text-white">=</button>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
